@@ -7,7 +7,7 @@
 [image6]: ./readme_imgs/final_box.png
 [image7]: ./readme_imgs/colorspace.png
 [image8]: ./readme_imgs/slidingwindow.png
-[video1]: ./readme_imgs.mp4
+[video1]: ./project_video_result.mp4
 
 # __Vehicle Detection Using Linear SVMs__
 
@@ -142,8 +142,7 @@ So we run the classifier on each of the sliding windows and we will obtain multi
 ## Video Implementation
 
 #### Link to Final Result
-ADD GIF
-Here's a [link to my video result](./project_video.mp4)
+Here's a [link to my video result](./project_video_result.mp4)
 
 
 ### Temporal Heatmap
