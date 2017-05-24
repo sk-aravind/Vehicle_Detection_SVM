@@ -2,11 +2,11 @@
 [image1]: ./readme_imgs/cars.png
 [image2]: ./readme_imgs/notcars.png
 [image3]: ./readme_imgs/hog.png
-[image4]: ./readme_imgs/pipeline.png
-[image6]: ./readme_imgs/detection.png
-[image7]: ./readme_imgs/final_box.png
-[image8]: ./readme_imgs/colorspace.png
-[image7]: ./readme_imgs/slidingwindow.png
+[image4]: ./readme_imgs/Pipeline.png
+[image5]: ./readme_imgs/detection.png
+[image6]: ./readme_imgs/final_box.png
+[image7]: ./readme_imgs/colorspace.png
+[image8]: ./readme_imgs/slidingwindow.png
 [video1]: ./readme_imgs.mp4
 
 # __Vehicle Detection Using Linear SVMs__
@@ -97,7 +97,7 @@ In order to keep the number of features low and maintain the generalization of t
 The code for Color Feature Extraction can be found in the cell labeled  __3) Feature Extraction Pipeline__
 
 
-![alt text][image8]
+![alt text][image7]
 
 ###### __AIM__
 To extract color features of the car based on pixel values. To capture the color signature of a car.
@@ -132,7 +132,7 @@ Utilizing a sliding window approach we can search for vehicles in regions of int
 
 These specific set of scales and areas were chosen for each part of the road, in order to frame the car in similar proportions to the car image examples in the training data.
 
-![alt text][image7]
+![alt text][image8]
 
 So we run the classifier on each of the sliding windows and we will obtain multiple positive detections as seen in this image. We can greatly reduce computational cost by negating certain search areas such as the non-drivable areas to the left of the car.
 
